@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sport-shooting/static/css/main.e0b35442.css",
+    "main.css": "/sport-shooting/static/css/main.60658403.css",
     "main.js": "/sport-shooting/static/js/main.823b26c4.js",
     "static/js/787.281e1857.chunk.js": "/sport-shooting/static/js/787.281e1857.chunk.js",
     "index.html": "/sport-shooting/index.html",
-    "main.e0b35442.css.map": "/sport-shooting/static/css/main.e0b35442.css.map",
+    "main.60658403.css.map": "/sport-shooting/static/css/main.60658403.css.map",
     "main.823b26c4.js.map": "/sport-shooting/static/js/main.823b26c4.js.map",
     "787.281e1857.chunk.js.map": "/sport-shooting/static/js/787.281e1857.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0b35442.css",
+    "static/css/main.60658403.css",
     "static/js/main.823b26c4.js"
   ]
 }
