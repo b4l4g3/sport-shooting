@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/loveszet/static/css/main.5c98e754.css",
-    "main.js": "/loveszet/static/js/main.b3de146d.js",
-    "static/js/787.281e1857.chunk.js": "/loveszet/static/js/787.281e1857.chunk.js",
-    "index.html": "/loveszet/index.html",
-    "main.5c98e754.css.map": "/loveszet/static/css/main.5c98e754.css.map",
-    "main.b3de146d.js.map": "/loveszet/static/js/main.b3de146d.js.map",
-    "787.281e1857.chunk.js.map": "/loveszet/static/js/787.281e1857.chunk.js.map"
+    "main.css": "/sport-shooting/static/css/main.5c98e754.css",
+    "main.js": "/sport-shooting/static/js/main.4260f55b.js",
+    "static/js/787.281e1857.chunk.js": "/sport-shooting/static/js/787.281e1857.chunk.js",
+    "index.html": "/sport-shooting/index.html",
+    "main.5c98e754.css.map": "/sport-shooting/static/css/main.5c98e754.css.map",
+    "main.4260f55b.js.map": "/sport-shooting/static/js/main.4260f55b.js.map",
+    "787.281e1857.chunk.js.map": "/sport-shooting/static/js/787.281e1857.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c98e754.css",
-    "static/js/main.b3de146d.js"
+    "static/js/main.4260f55b.js"
   ]
 }
