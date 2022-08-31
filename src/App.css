@@ -1,24 +1,62 @@
 .App {
   text-align: center;
-  padding: 20px;
+  height: calc(100vh - 65px);
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .Grid {
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: repeat(7, 1fr);
-  grid-gap: 30px;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  margin-top: auto;
 }
 
 .Item button {
-  width: 50px;
-  height: 50px;
+  width: 95px;
+  height: 70px;
   font-size: 20px;
+  background: dodgerblue;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Item:nth-child(-n + 7) {
+  justify-content: start;
+}
+
+.Item:nth-child(n + 8) {
+  justify-content: end;
+}
+
+.Score {
+  width: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 5px;
 }
 
 .Counter {
-  margin-right: 22px;
-  width: 15px;
+  align-self: start;
+  font-size: 15px;
+  color: white;
+  border-radius: 4px;
+  background: #b50e0e;
+  padding: 4px;
+}
+
+.Reset {
+  margin-top: -65px;
 }
 
 .Item {
@@ -28,22 +66,44 @@
   font-weight: 600;
 }
 
+button {
+  border: 2px solid black;
+}
+
 span {
   font-size: 35px;
 }
 
 .Total {
-  margin-top: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  width: 105px;
+}
+
+.Total:first-child {
+  border-radius: 5px 0 0 5px;
+  border-right: 0;
+}
+
+.Total:last-child {
+  border-radius: 0 5px 5px 0;
 }
 
 .Reset button {
   margin-top: 15px;
   font-size: 17px;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  background: darkred;
+  border-radius: 5px;
 }
 
 .Data {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   font-weight: bold;
   font-size: 18px;
 }

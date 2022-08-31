@@ -18,11 +18,20 @@ function App() {
 
   return (
     <div className="App">
+      <div className="Data">
+        <div className="Total">
+          Találatok<br/>
+          <span>{getTotalShots()}</span>
+        </div>
+        <div className="Total">
+          Köregység<br/>
+          <span>{getTotalScore()}</span>
+        </div>
+      </div>
       <div className="Grid">
         {[...Array(14)].map((_, index) => {
           return (
             <div className="Item" key={index}>
-              <div className="Counter">{scores[index]}</div>
               <button onClick={() => {
                 if (getTotalShots() === 15) {
                   return;
@@ -37,20 +46,11 @@ function App() {
                     return item;
                   })
                 });
-              }}>{index}</button>
+              }}><div className="Score">{index}</div>
+                {scores[index] ? <div className="Counter">{scores[index]}</div> : ''}</button>
             </div>
           );
         })}
-      </div>
-      <div className="Data">
-        <div className="Total">
-          Lövések:<br/>
-          <span>{getTotalShots()}</span>
-        </div>
-        <div className="Total">
-          Pontszám:<br/>
-          <span>{getTotalScore()}</span>
-        </div>
       </div>
       <div className="Reset">
         <button onClick={() => {
